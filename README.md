@@ -99,14 +99,6 @@ User routes ([backend/src/routes/userRoutes.js](backend/src/routes/userRoutes.js
 
 Note: The app protects routes using JWT present in the `Authorization: Bearer <token>` header.
 
-## Screenshots / Demo
-
-If you have screenshots or a deployed demo, add them here. Example placeholder:
-
-![App Screenshot](frontend/public/screenshot.png)
-
-Or add a demo link:
-
 - Demo: (add URL here)
 
 ---
