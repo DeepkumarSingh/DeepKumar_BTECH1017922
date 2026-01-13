@@ -19,9 +19,15 @@ app.use(express.urlencoded({ extended: false }));
 //     credentials: true,
 //   })
 // );
+// app.use(
+//   cors({
+//     origin: process.env.CLIENT_URL || true,
+//     credentials: true,
+//   })
+// );
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || true,
+    origin: true, // allow all origins (simple fix)
     credentials: true,
   })
 );
