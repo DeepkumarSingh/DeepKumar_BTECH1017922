@@ -98,9 +98,3 @@ User routes ([backend/src/routes/userRoutes.js](backend/src/routes/userRoutes.js
 - `DELETE /api/users/profile` — Delete authenticated user's profile
 
 Note: The app protects routes using JWT present in the `Authorization: Bearer <token>` header.
-
-- Demo: (add URL here)
-
----
-
-If you'd like, I can also add example requests (curl/Postman collection) or expand the API docs with sample request/response bodies.
