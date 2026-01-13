@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+// <<<<<<< HEAD
 
-const Task = require('../models/Task');
+// const Task = require('../models/Task');
 
-// @desc    Get all tasks for logged in user
-=======
->>>>>>> 68888c7 (Initial commit: frontend and backend with README and env example)
+// // @desc    Get all tasks for logged in user
+// =======
+// >>>>>>> 68888c7 (Initial commit: frontend and backend with README and env example)
 const Task = require('../models/Task');
 
 const createTask = async (req, res, next) => {
