@@ -69,7 +69,7 @@ By default the frontend expects the API at `http://localhost:5000` (see `VITE_AP
 
 Copy `.env.example` to `.env` and fill the values. Variables used by this project:
 
-- `MONGO_URI`: MongoDB connection string (example uses MongoDB Atlas). Example: `mongodb+srv://...`.
+- `MONGO_URI` or `MONGODB_URI`: MongoDB connection string (example uses MongoDB Atlas). Example: `mongodb+srv://...`.
 - `JWT_SECRET`: Secret key for signing JWTs.
 - `PORT`: Backend server port (default: `5000`).
 - `CLIENT_URL`: Frontend origin (used in CORS or email links if applicable).
